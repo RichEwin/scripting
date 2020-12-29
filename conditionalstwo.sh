@@ -13,4 +13,4 @@ else
     echo "ERROR"
 fi
 
-# Pass variables into the script - sh conditionalstwo.sh 50 50
+# Positional Parameters: passing variables into the script - sh conditionalstwo.sh 50 50 
