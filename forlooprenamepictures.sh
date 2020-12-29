@@ -3,7 +3,7 @@
 PICTURES=$(ls *HEIC)
 DATE=$(date +%F)
 
-for PICTURE in $PICTURES
+for PICTURE in ${PICTURES}
 do 
     echo "Renaming ${PICTURE} to ${DATE}
     -${PICTURE}"
