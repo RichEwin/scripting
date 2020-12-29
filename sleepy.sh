@@ -1,5 +1,6 @@
 #!/bin/bash
-sleep 5
-echo 'Slept for 5 seconds'
+SLEEP_TIMER=5
+sleep ${SLEEP_TIMER}
+echo "Slept for ${SLEEP_TIMER} seconds"
 
 # sh sleepy.sh
