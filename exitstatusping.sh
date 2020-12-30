@@ -11,3 +11,8 @@ else
     echo "$HOST unreachable"
 fi 
 
+# # HOST="Google.com"
+# # ping -c 1 $HOST && echo "$HOST reachable"
+
+# HOST="Google.com"
+# ping -c 1 $HOST || echo "$HOST unreachable"
