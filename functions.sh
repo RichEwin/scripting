@@ -1,5 +1,7 @@
 #!/bin/bash
 
+NAME="Rich"
+
 function hello() {
     echo "Hello"
 }
@@ -13,6 +15,9 @@ function now() {
     echo "It's $(date +%r)"
 }    
 
-hello 
-name 
-now 
+if [ $NAME = "Rich" ]
+then 
+    echo "Hey Rich"
+else
+now
+fi 
